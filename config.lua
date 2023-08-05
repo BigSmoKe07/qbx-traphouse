@@ -3,7 +3,7 @@ Config = Config or {}
 -- **** IMPORTANT ****
 -- UseTarget should only be set to true when using qb-target
 Config.UseTarget = GetConvar('UseTarget', 'false') == 'true'
-
+Config.Sellingtime = 10 --In minutes
 Config.MinZOffset = 40
 Config.TakeoverPrice = 5000
 Config.TrapHouses = {
